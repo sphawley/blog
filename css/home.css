@@ -43,9 +43,7 @@
     display: grid;
     margin: auto;
     grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px;
-    /* justify-items: center;
-    align-items: center; */
+    grid-template-rows: 400px 400px;
 }
 
 .footer {
@@ -54,4 +52,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: normal;
 }
