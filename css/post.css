@@ -22,8 +22,16 @@
 
 .nav {
     grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutAuthor {
     grid-area: abt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

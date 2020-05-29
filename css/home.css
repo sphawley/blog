@@ -4,7 +4,7 @@
     height: 98vh;
     margin: auto;
     grid-template-columns: 125px 1fr;
-    grid-template-rows: 125px min-content auto 100px;
+    grid-template-rows: 125px min-content min-content 100px;
     grid-template-areas:
     "hd hd"
     "sd int"
@@ -20,10 +20,18 @@
 
 .header {
     grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar {
     grid-area: sd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
 }
 
 .intro {
@@ -32,8 +40,18 @@
 
 .recentPosts {
     grid-area: rp;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    /* justify-items: center;
+    align-items: center; */
 }
 
 .footer {
     grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
