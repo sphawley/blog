@@ -1,0 +1,39 @@
+.homeContainer {
+    display: grid;
+    width: 98vw;
+    height: 98vh;
+    margin: auto;
+    grid-template-columns: 125px 1fr;
+    grid-template-rows: 125px min-content auto 100px;
+    grid-template-areas:
+    "hd hd"
+    "sd int"
+    "sd rp"
+    "ft ft";
+}
+
+.box {
+    border: 1px solid black;
+    background: rgb(190, 241, 255);
+    margin: 1px;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+.intro {
+    grid-area: int;
+}
+
+.recentPosts {
+    grid-area: rp;
+}
+
+.footer {
+    grid-area: ft;
+}

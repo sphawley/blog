@@ -1,0 +1,9 @@
+@import "post.css";
+@import "home.css";
+@import "subscribe.css";
+
+.box {
+    border: 1px solid black;
+    background: rgb(190, 241, 255);
+    margin: 1px;
+}

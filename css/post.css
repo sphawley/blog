@@ -1,0 +1,29 @@
+.postContainer {
+    display: grid;
+    width: 98vw;
+    height: 98vh;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px min-content 50px 250px;
+    grid-template-areas:
+    "pic"
+    "cont"
+    "nav"
+    "abt";
+}
+
+.picture {
+    grid-area: pic;
+}
+
+.content {
+    grid-area: cont;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.aboutAuthor {
+    grid-area: abt;
+}
