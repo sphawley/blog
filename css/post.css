@@ -3,13 +3,13 @@
     width: 98vw;
     height: 98vh;
     margin: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px min-content 50px 250px;
+    grid-template-columns: 1fr 860px 1fr;
+    grid-template-rows: 300px min-content 75px 300px;
     grid-template-areas:
-    "pic"
-    "cont"
-    "nav"
-    "abt";
+    ". pic ."
+    ". cont ."
+    ". nav ."
+    ". abt .";
 }
 
 .picture {
@@ -17,6 +17,8 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .content {
@@ -31,6 +33,8 @@
     justify-content: center;
     align-items: center;
     background-color: #DFF8EB;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .aboutAuthor {
@@ -40,6 +44,8 @@
     justify-content: center;
     align-items: center;
     background-color: #214E34;
+    border-radius: 40px;
+    margin: 25px 75px 0 75px;
 }
 
 .authorTextbox {
@@ -50,6 +56,7 @@
     width: 170px;
     height: auto;
     border-radius: 30px;
+    margin: 25px;
 }
 
 .articleImage {

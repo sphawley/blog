@@ -4,7 +4,7 @@
     height: 98vh;
     margin: auto;
     grid-template-columns: 1fr 500px 1fr;
-    grid-template-rows: 1fr 50px min-content 50px 1fr;
+    grid-template-rows: 1fr 50px 300px 50px 1fr;
     grid-template-areas:
     ". . ."
     ". ent ."
@@ -31,6 +31,8 @@
     align-items: center;
     background-color: #DFF8EB;
     padding: 15px 0;
+    border-top: 10px solid #214E34;
+    border-bottom: 10px solid #214E34;
 }
 
 .homeButton {
