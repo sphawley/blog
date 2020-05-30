@@ -21,6 +21,7 @@
 
 .content {
     grid-area: cont;
+    background-color: #DFF8EB;
 }
 
 .nav {
@@ -29,6 +30,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #DFF8EB;
 }
 
 .aboutAuthor {
@@ -37,6 +39,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #214E34;
+}
+
+.authorTextbox {
+    background-color: #CDCDCD;
 }
 
 .profilePic {

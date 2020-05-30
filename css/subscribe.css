@@ -15,6 +15,7 @@
 
 .enticement {
     grid-area: ent;
+    background-color: #CDCDCD;
 }
 
 .form {
@@ -23,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #DFF8EB;
 }
 
 .homeButton {
@@ -30,4 +32,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #CDCDCD;
 }

@@ -2,12 +2,6 @@
 @import "home.css";
 @import "subscribe.css";
 
-.box {
-    border: 1px solid black;
-    background: rgb(190, 241, 255);
-    margin: 1px;
-}
-
 .button {
     display: inline-block;
     margin: 0 4px 0 4px;
@@ -15,19 +9,19 @@
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-    color: #fff;
-    background-color: #4CAF50;
+    color: #DFF8EB;
+    background-color: #48AD72;
     border-radius: 8px;
-    box-shadow: 0 3px #999;
+    box-shadow: -1px 4px #56688A;
 }
   
 .button:hover {
-    background-color: #3e8e41
+    background-color: #368156
 }
   
 .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 0px #666;
+    background-color: #214E34;
+    box-shadow: -1px 1px #364156;
     transform: translateY(3px);
 }
 
@@ -52,4 +46,8 @@ a {
 
 a:hover {
     color: #DFF8EB
+}
+
+body {
+    background-color: #364156
 }

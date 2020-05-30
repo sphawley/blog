@@ -2,7 +2,6 @@
     display: grid;
     width: 98vw;
     height: 98vh;
-    margin: auto;
     grid-template-columns: 125px 1fr;
     grid-template-rows: 125px min-content min-content 100px;
     grid-template-areas:
@@ -12,18 +11,13 @@
     "ft ft";
 }
 
-.box {
-    border: 1px solid black;
-    background: rgb(190, 241, 255);
-    margin: 1px;
-}
-
 .header {
     grid-area: hd;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #CDCDCD;
 }
 
 .sidebar {
@@ -32,17 +26,22 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
+    background-color: #214E34;
 }
 
 .intro {
     grid-area: int;
+    background-color: #DFF8EB;
 }
 
 .recentPosts {
     grid-area: rp;
     display: grid;
+    margin-block-start: 0;
+    margin-block-end: 0;
     grid-template-columns: 300px 300px;
     grid-template-rows: 400px 400px;
+    background-color: #DFF8EB;
 }
 
 .footer {
@@ -51,6 +50,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #011638;
+}
+
+.footerItem {
+    margin: 0 4px 0 4px;
 }
 
 .card {
@@ -58,14 +62,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: normal;
+    background-color: #A1B5D8;
 }
 
-.footerItem {
-    margin: 0 4px 0 4px;
-}
-
-.sidebarIcon {
-    width: 121px;
+.headerIcon {
+    width: 100px;
     height: auto;
     align-self: center;
     border-radius: 30px
