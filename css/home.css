@@ -63,3 +63,16 @@
 .footerItem {
     margin: 0 4px 0 4px;
 }
+
+.sidebarIcon {
+    width: 121px;
+    height: auto;
+    align-self: center;
+    border-radius: 30px
+}
+
+.cardImage {
+    width: 296px;
+    height: auto;
+    align-self: center;
+}
