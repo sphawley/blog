@@ -5,7 +5,8 @@
 .button {
     display: inline-block;
     margin: 0 4px 0 4px;
-    padding: 8px 10px;
+    padding: 6px 8px;
+    font-family: 'Slabo 13px', serif;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
@@ -27,15 +28,24 @@
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+    font-size: 46px;
+    color: #011638;
+    margin: 0 0 15px 10px;
 }
 
 h2,
 h3 {
     font-family: 'Lora', serif;
+    margin: 10px 0 5px 10px;
+    font-weight: bolder;
 }
 
-p {
+p,
+label {
     font-family: 'Lato', sans-serif;
+    margin: 0 0 8px 10px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 a {
@@ -50,4 +60,15 @@ a:hover {
 
 body {
     background-color: #364156
+}
+
+ol,
+ul {
+    list-style: square;
+    padding-left: 20px;
+    margin: 0 0 15px 0;
+}
+
+li {
+    padding-top: 8px;
 }

@@ -16,6 +16,11 @@
 .enticement {
     grid-area: ent;
     background-color: #CDCDCD;
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .form {
@@ -25,6 +30,7 @@
     justify-content: center;
     align-items: center;
     background-color: #DFF8EB;
+    padding: 15px 0;
 }
 
 .homeButton {
@@ -33,4 +39,6 @@
     justify-content: center;
     align-items: center;
     background-color: #CDCDCD;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
