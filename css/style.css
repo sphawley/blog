@@ -7,3 +7,24 @@
     background: rgb(190, 241, 255);
     margin: 1px;
 }
+
+.button {
+    display: inline-block;
+    margin: 0 4px 0 4px;
+    padding: 8px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 3px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(3px);
+  }

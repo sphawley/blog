@@ -41,7 +41,6 @@
 .recentPosts {
     grid-area: rp;
     display: grid;
-    margin: auto;
     grid-template-columns: 300px 300px;
     grid-template-rows: 400px 400px;
 }
@@ -59,4 +58,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: normal;
+}
+
+.footerItem {
+    margin: 0 4px 0 4px;
 }
