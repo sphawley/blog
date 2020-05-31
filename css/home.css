@@ -101,3 +101,47 @@
 .footerItem {
     margin: 0 4px 0 4px;
 }
+
+@media(max-width: 767px) {
+
+    .homeContainer {
+        grid-template-columns: 1fr 400px 1fr;
+        grid-template-rows: 125px 115px 1900px 300px 75px;
+        grid-template-areas:
+        ". hd ."
+        ". int ."
+        ". rp ."
+        ". sd ."
+        ". ft .";
+    }
+
+    .recentPosts {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .sidebar {
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+@media(min-width: 1025px) {
+
+    .homeContainer {
+        grid-template-columns: 1fr 240px 960px 1fr;
+        grid-template-rows: 150px 115px 1025px 130px;
+    }
+
+    .recentPosts {
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 500px 500px;
+    }
+}

@@ -44,3 +44,19 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+@media(max-width: 767px) {
+
+    .subscribeContainer {
+        grid-template-columns: 1fr 380px 1fr;
+        grid-template-rows: 1fr 45px 300px 45px 1fr;
+    }
+  }
+
+@media(min-width: 1025px) {
+
+    .subscribeContainer {
+        grid-template-columns: 1fr 700px 1fr;
+        grid-template-rows: 1fr 75px 400px 75px 1fr;
+    }
+}
